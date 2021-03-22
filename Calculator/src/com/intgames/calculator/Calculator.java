@@ -18,7 +18,7 @@ public class Calculator {
 
 	/** Formula to calculation */
 	private Formula formula;
-
+	private String origin;
 
 	public Calculator() {}
 
@@ -29,6 +29,18 @@ public class Calculator {
 	  
 	}
 	
+	/** Create <code>Calculator</code> object with given <code>String</code> */
+	public Calculator(String origin) {
+	  
+		this.origin = origin;
+	  
+	}
+	
+	
+	public void parse() {
+		
+		
+	}
 	
 	
 }
